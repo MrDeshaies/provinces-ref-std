@@ -1,0 +1,69 @@
+Norme sur les données de référence pour les provinces et les territoires du Canada (ÉBAUCHE)
+Version 1.0
+Date de diffusion : Le 31 mai 2021
+
+1. Introduction
+L’ébauche de ces données de référence présente une liste normalisée de valeurs pour l’ensemble des provinces et des territoires du Canada. La liste présente les 13 grandes unités politiques du Canada; elle ne repose pas sur des frontières géographiques. 
+Il existe de nombreux systèmes de codage des provinces et des territoires du Canada. Le tableau de concordance montre la relation entre les codes recommandés et trois systèmes de codage les plus courants, soit les systèmes de Postes Canada, Statistique Canada et ISO. Un seul de ces systèmes pouvait être utilisé comme norme de codage.
+L’ébauche de la norme a été élaborée par le Groupe de travail sur la gestion des données de référence de la Communauté de pratique sur les données intégrées du GC. 
+
+2. But
+Cette liste vise à normaliser la description des provinces et des territoires canadiens dans les jeux de données afin de permettre l’interopérabilité des données et d’en améliorer la qualité. 
+Bien que les modifications apportées antérieurement aux codes des provinces et des territoires du Canada ne sont pas documentées, l’historique des versions sera tenu à jour de manière prospective.
+
+3. Champ d’application
+Comme il ne s’agit que d’une ébauche de la norme, il est recommandé d’adopter les valeurs de la colonne « Code » aux fins de partage de données au sein du gouvernement fédéral ou de publication dans le Portail du gouvernement ouvert. Ces valeurs de code ont été choisies pour trois raisons :
+* Elles sont faciles à comprendre pour les utilisateurs.
+* Elles concordent étroitement avec le code ISO 3166-2 de la subdivision, et correspondent exactement aux abréviations de Postes Canada.
+* Elles ont déjà été adoptées par un bon nombre de ministères fédéraux.
+
+4. Rôles et responsabilités
+Intendant de la norme relative aux données
+Statistique Canada
+Peter Murphy
+Chef, Concepts, normes et régions géographiques, Statistique Canada.
+
+Gardien de la norme relative aux données
+Secrétariat du Conseil du Trésor du Canada — Bureau du dirigeant principal de l’information
+Benoit Deshaies
+Directeur intérimaire, Données et IA.
+
+Période d’examen recommandée
+La norme sur les données de référence sera examinée sur une période de cinq ans, en plus d’une approche ponctuelle pour les mises à jour, au besoin. La fréquence prévue des changements est faible.
+
+5. Tableau des données de référence pour les provinces et les territoires du Canada
+Tableau 1. Tableau des données de référence pour les provinces et les territoires du Canada
+Code, Nom en anglais, Nom en français, Abréviation en anglais, Abréviation en françaisNL, Newfoundland and Labrador, Terre-Neuve-et-Labrador, N.L., T.-N.-L.PE, Prince Edward Island, Île-du-Prince-Édouard, P.E.I., Î.-P.-É.NS, Nova Scotia, Nouvelle-Écosse, N.S., N.-É.NB, New Brunswick, Nouveau-Brunswick, N.B., N.-B.QC, Quebec, Québec, Que., QcON, Ontario, Ontario, Ont., Ont.MB, Manitoba, Manitoba, Man., Man.SK, Saskatchewan, Saskatchewan, Sask., Sask.AB, Alberta, Alberta, Alta., Alb.BC, British Columbia, Colombie-Britannique, B.C., C.-B.YT, Yukon, Yukon, Y.T., YnNT, Northwest Territories, Territoires du Nord-Ouest, N.W.T., T.N.-O.NU, Nunavut, Nunavut, Nvt., Nt
+
+Les ministères et organismes sont libres de compléter ce tableau pour répondre à leurs besoins opérationnels particuliers.
+Un tableau de concordance montrant la relation entre les codes proposés (la colonne « Code ») et trois autres structures de code pour les provinces et les territoires canadiens (Classification géographique type de Statistique Canada, codes des subdivisions de l’ISO, abréviations de Postes Canada) se trouvent à l’annexe 1. 
+
+Définitions — Tableau 1. Tableau des données de référence pour les provinces et les territoires du Canada
+Voici une liste des définitions des colonnes du tableau de données de référence pour les provinces et les territoires du Canada. 
+Code – Ce code représente les principales unités politiques du Canada. Type de données - alphanumérique.
+Nom en anglais – Nom en anglais fondé sur la norme ISO des codes des noms de pays et de leurs subdivisions – Partie 2 : Code de subdivision de pays (3166-2), les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, Ministère des ressources naturelles), la Classification géographique type de Statistique Canada (2016), et les noms et abréviations des provinces et des territoires canadiens de Postes Canada. Type de données - alphanumérique.
+Nom en français – Nom en français fondé sur la norme ISO des codes des noms de pays et de leurs subdivisions – Partie 2 : Code de subdivision de pays (3166-2), les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, Ministère des ressources naturelles), la Classification géographique type de Statistique Canada (2016), et les noms et abréviations des provinces et des territoires canadiens de Postes Canada. Type de données - alphanumérique.
+Abréviation en anglais – Abréviation en anglais fondée sur les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, RNCan) et la Classification géographique type de Statistique Canada (2016). Type de données - alphanumérique.
+Abréviation en français – Abréviation en français fondée sur les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, RNCan) et la Classification géographique type de Statistique Canada (2016). Type de données - alphanumérique.
+
+6. Personnes-ressources
+Veuillez communiquer avec EnterpriseDataDonneesIntegrees@tbs-sct.gc.ca si vous avez des commentaires ou des questions. 
+
+7. Références
+Directives d’adressage de Postes Canada Tableau 4 – Noms et abréviations des provinces et territoires canadiens Extrait de https://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp?ecid=murl10006450#1442131
+Commission de toponymie du Canada. Principes et directives pour la dénomination des lieux (2011) Extrait de : Principes et directives pour la dénomination des lieux (2011) : M86-23/2012 — Publications du gouvernement du Canada – canada.ca 
+Organisation internationale de normalisation (ISO), norme 3166, Codes de pays. Codes de représentation des noms de pays et de leurs subdivisions. Extrait de ISO — ISO 3166 — Codes des noms de pays et CA – canada (iso.org) 
+Statistique Canada. Classification géographique type (2016). Extrait de https://www.statcan.gc.ca/fra/sujets/norme/cgt/2016/introduction
+
+Annexe 1 Concordance avec les normes existantes – Données de référence pour les provinces et les territoires canadiens  
+Le tableau suivant montre la relation entre les codes proposés (la colonne « Code ») et trois autres structures de code pour les provinces et les territoires canadiens (Classification géographique type de Statistique Canada, codes des subdivisions de l’ISO, abréviations de Postes Canada). Les données sont présentées à titre de valeurs de concordance (schématisation) afin de faciliter la migration à la colonne de code normalisé. Il ne s’agit pas du code recommandé pour le partage ou la publication de données.
+Les ministères et organismes sont libres de compléter ce tableau pour répondre à leurs besoins opérationnels particuliers.
+
+Tableau 2. Tableau de concordance montrant la relation entre le code de données de référence pour les provinces et les territoires canadiens et trois autres structures de code pour les provinces et les territoires canadiens. 
+Code, Code de la Classification géographique type de Statistique Canada, Code ISO de la subdivision du pays, Abréviation de Postes CanadaNL, 10, CA-NL, NL 
+PE, 11, CA-PE, PENS, 12, CA-NS, NSNB, 13, CA-NB, NBQC, 24, CA-QC, QCON, 35, CA-ON, ONMB, 46, CA-MB, MBSK, 47, CA-SK, SKAB, 48, CA-AB, ABBC, 59, CA-BC, BCYT, 60, CA-YT, YTNT, 61, CA-NT, NTNU, 62, CA-NU, NU
+Définitions – Tableau 2 – Tableau de concordance 
+Code – Ce code représente les principales unités politiques du Canada. Type de données - alphanumérique.
+Code de la Classification géographique type de Statistique Canada – Statistique Canada utilise des codes et des abréviations normalisés pour représenter les provinces et les territoires canadiens. Le code à deux chiffres propre à chaque province et territoire est tiré de la Classification géographique type (CGT) (2016). Type de données - numérique.
+Code des subdivisions de l’ISO – Code attribué par la norme ISO 3166-2 pour identifier de façon univoque les subdivisions du Canada. Il est basé sur l’élément de code à deux lettres de la norme ISO 3166-1 (Codes des noms de pays), suivi d’un séparateur et d’un maximum de trois caractères alphanumériques. Type de données - alphanumérique.
+Abréviation de Postes Canada – Abréviation pour les provinces et les territoires canadiens incluse dans les lignes directrices de Postes Canada sur l’adressage. Type de données - alphanumérique.

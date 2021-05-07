@@ -1,0 +1,14 @@
+﻿REF_DATE,GEO,GEO_CODE,DGUID,Homicides,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS
+2019,Newfoundland and Labrador,10,2016A000210,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540425,2.2,0.96,,,,2
+2019,Prince Edward Island,11,2016A000211,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540427,3.2,1.27,,,,2
+2019,Nova Scotia,12,2016A000212,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540429,4.2,0.62,,,,2
+2019,New Brunswick,13,2016A000213,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540431,5.2,1.93,,,,2
+2019,Quebec,24,2016A000224,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540433,6.2,0.91,,,,2
+2019,Ontario,35,2016A000235,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540435,7.2,1.69,,,,2
+2019,Manitoba,46,2016A000246,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540437,8.2,5.26,,,,2
+2019,Saskatchewan,47,2016A000247,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540439,9.2,4.68,,,,2
+2019,Alberta,48,2016A000248,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540441,10.2,2.29,,,,2
+2019,British Columbia,59,2016A000259,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540443,11.2,1.77,,,,2
+2019,Yukon,60,2016A000260,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540445,12.2,2.45,,,,2
+2019,Northwest Territories,61,2016A000261,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540451,15.2,4.46,,,,2
+2019,Nunavut,62,2016A000262,"Homicide rates per 100,000 population","Rate per 100,000 population",265,units,0,v1540449,14.2,18.05,,,,2

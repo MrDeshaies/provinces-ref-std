@@ -1,0 +1,9 @@
+﻿Nom_de_colonne,Définition
+code,Ce code représente les principales unités politiques du Canada.
+nm_en,"Nom en anglais fondé sur la norme ISO (3166-2) des codes des noms de pays et de leurs subdivisions, les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, RNCan), la Classification géographique type de Statistique Canada (2016), et les noms et abréviations des provinces et des territoires canadiens de Postes Canada. "
+nm_fr,"Nom en français fondé sur la norme ISO (3166-2) des codes des noms de pays et de leurs subdivisions, les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, RNCan), la Classification géographique type de Statistique Canada (2016), et les noms et abréviations des provinces et des territoires canadiens de Postes Canada. "
+ab_en,"Abréviation en anglais fondée sur les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, RNCan) et la Classification géographique type de Statistique Canada (2016)."
+ab_fr,"Abréviation en français fondée sur les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, RNCan) et la Classification géographique type de Statistique Canada (2016)."
+code_statcan,Statistique Canada utilise des abréviations et des codes normalisés pour désigner les provinces et les territoires canadiens. Le code à deux chiffres propre à chaque province et territoire est tiré de la Classification géographique type (CGT) (2016). 
+code_iso,"Code attribué par la norme ISO 3166-2 pour identifier de façon univoque les subdivisions du Canada. Il est basé sur l’élément de code à deux lettres de la norme ISO 3166-1 (Codes des noms de pays), suivi d’un séparateur et d’un maximum de trois caractères alphanumériques."
+cp_ab_pc,Abréviations reconnues par Postes Canada pour désigner les provinces et les territoires canadiens.

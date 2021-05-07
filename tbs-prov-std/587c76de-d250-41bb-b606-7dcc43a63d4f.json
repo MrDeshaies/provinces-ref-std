@@ -1,0 +1,17 @@
+{
+  "fields": [{"type":"int","id":"_id"},{"info":{"notes_fr":"la valeur du code pour la province ou le territoire","notes_en":"the code value for the province or territory ","label_en":"Code value","label_fr":" valeur de code","type_override":"text"},"type":"text","id":"Code |Code"},{"info":{"notes_fr":"le nom anglais de la province ou du territoire\r\n","notes_en":"the english name for the province or territory ","label_en":"name english","label_fr":"nom anglais","type_override":"text"},"type":"text","id":"Name in English |Nom en anglais"},{"info":{"notes_fr":"le nom français de la province ou du territoire\r\n","notes_en":"the French name for the province or territory ","label_en":"name french","label_fr":"nom français","type_override":"text"},"type":"text","id":"Name in French |Nom en francais"},{"info":{"notes_fr":"","notes_en":"","label_en":"","label_fr":"","type_override":""},"type":"text","id":"Abbreviation English |Abreviation en anglais"},{"info":{"notes_fr":"","notes_en":"","label_en":"","label_fr":"","type_override":""},"type":"text","id":"Abbreviation French |Abreviation en francais"}],
+  "records": [
+    [1,"NL","Newfoundland and Labrador","Terre-Neuve-et-Labrador","N.L.","T.-N.-L."],
+    [2,"PE","Prince Edward Island","Île-du-Prince-Édouard","P.E.I.","Î.-P.-É."],
+    [3,"NS","Nova Scotia","Nouvelle-Écosse","N.S.","N.-É."],
+    [4,"NB","New Brunswick","Nouveau-Brunswick","N.B.","N.-B."],
+    [5,"QC","Quebec","Québec","Que.","Qc"],
+    [6,"ON","Ontario","Ontario","Ont.","Ont."],
+    [7,"MB","Manitoba","Manitoba","Man.","Man."],
+    [8,"SK","Saskatchewan","Saskatchewan","Sask.","Sask."],
+    [9,"AB","Alberta","Alberta","Alta.","Alb."],
+    [10,"BC","British Columbia","Colombie-Britannique","B.C.","C.-B."],
+    [11,"YT","Yukon","Yukon","Y.T.","Yn"],
+    [12,"NT","Northwest Territories","Territoires du Nord-Ouest","N.W.T.","T.N.-O."],
+    [13,"NU","Nunavut","Nunavut","Nvt.","Nt"]
+]}

@@ -1,0 +1,9 @@
+﻿Column_Name,Definition
+code,This code represents the major political units in the country of Canada.
+nm_en,"English name informed by the ISO Codes for the representation of names of countries and their subdivisions (3166-2), Principles and Procedures for Geographical Naming 2011 (Geographical Names Board of Canada, NRCan), the Statistics Canada Standard Geographical Classification (2016), and the Canada Post Canadian provinces and territories names and abbreviations. "
+nm_fr,"French name informed by the ISO Codes for the representation of names of countries and their subdivisions (3166-2), Principles and Procedures for Geographical Naming 2011 (Geographical Names Board of Canada, NRCan), the Statistics Canada Standard Geographical Classification (2016), and the Canada Post Canadian provinces and territories names and abbreviations. "
+ab_en,"English abbreviation informed by the Principles and Procedures for Geographical Naming 2011 (Geographical Names Board of Canada, NRCan) and the Statistics Canada Standard Geographical Classification (2016)."
+ab_fr,"French abbreviation informed by the Principles and Procedures for Geographical Naming 2011 (Geographical Names Board of Canada, NRCan) and the Statistics Canada Standard Geographical Classification (2016)."
+code_statcan,Statistics Canada uses standard codes and abbreviations to represent Canadian provinces and territories. The two-digit numeric code that uniquely identifies each province/territory is based on the Standard Geographical Classification (SGC) (2016). 
+code_iso,Code assigned by ISO in ISO 3166-2 to uniquely identify Canada's subdivisions. It is based on the two-letter code element from ISO 3166-1 (Country codes) followed by a separator and up to three alphanumeric characters.
+cp_ab_pc,Abbreviation for Canadian provinces and territories recognized by Canada Post.
