@@ -1,0 +1,93 @@
+[
+    {
+        "code": "NL",
+        "nm_en": "Newfoundland and Labrador",
+        "nm_fr": "Terre-Neuve-et-Labrador",
+        "ab_en": "N.L.",
+        "ab_fr": "T.-N.-L."
+    },
+    {
+        "code": "PE",
+        "nm_en": "Prince Edward Island",
+        "nm_fr": "\u00cele-du-Prince-\u00c9douard",
+        "ab_en": "P.E.I.",
+        "ab_fr": "\u00ce.-P.-\u00c9."
+    },
+    {
+        "code": "NS",
+        "nm_en": "Nova Scotia",
+        "nm_fr": "Nouvelle-\u00c9cosse",
+        "ab_en": "N.S.",
+        "ab_fr": "N.-\u00c9."
+    },
+    {
+        "code": "NB",
+        "nm_en": "New Brunswick",
+        "nm_fr": "Nouveau-Brunswick",
+        "ab_en": "N.B.",
+        "ab_fr": "N.-B."
+    },
+    {
+        "code": "QC",
+        "nm_en": "Quebec",
+        "nm_fr": "Qu\u00e9bec",
+        "ab_en": "Que.",
+        "ab_fr": "Qc"
+    },
+    {
+        "code": "ON",
+        "nm_en": "Ontario",
+        "nm_fr": "Ontario",
+        "ab_en": "Ont.",
+        "ab_fr": "Ont."
+    },
+    {
+        "code": "MB",
+        "nm_en": "Manitoba",
+        "nm_fr": "Manitoba",
+        "ab_en": "Man.",
+        "ab_fr": "Man."
+    },
+    {
+        "code": "SK",
+        "nm_en": "Saskatchewan",
+        "nm_fr": "Saskatchewan",
+        "ab_en": "Sask.",
+        "ab_fr": "Sask."
+    },
+    {
+        "code": "AB",
+        "nm_en": "Alberta",
+        "nm_fr": "Alberta",
+        "ab_en": "Alta.",
+        "ab_fr": "Alb."
+    },
+    {
+        "code": "BC",
+        "nm_en": "British Columbia",
+        "nm_fr": "Colombie-Britannique",
+        "ab_en": "B.C.",
+        "ab_fr": "C.-B."
+    },
+    {
+        "code": "YT",
+        "nm_en": "Yukon",
+        "nm_fr": "Yukon",
+        "ab_en": "Y.T.",
+        "ab_fr": "Yn"
+    },
+    {
+        "code": "NT",
+        "nm_en": "Northwest Territories",
+        "nm_fr": "Territoires du Nord-Ouest",
+        "ab_en": "N.W.T.",
+        "ab_fr": "T.N.-O."
+    },
+    {
+        "code": "NU",
+        "nm_en": "Nunavut",
+        "nm_fr": "Nunavut",
+        "ab_en": "Nvt.",
+        "ab_fr": "Nt"
+    }
+]
