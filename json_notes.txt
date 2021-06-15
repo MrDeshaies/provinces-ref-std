@@ -8,6 +8,14 @@ $id is looking for a URI for the schema and is currently indicated as Null. One 
 Language – some of the csv files were intended to be bilingual, so we have added the definitions in both languages (although the schema seems to be only available in English). Happy to discuss this approach, as separate files could be considered.
 We’d be happy for any suggestions or feedback.
 
+PSPC doc:
+http://donnees-data.tpsgc-pwgsc.gc.ca/dd/json_df-eng.html#schema
+
+JSON Schema:
+http://json-schema.org/learn/getting-started-step-by-step
+
+Online JSON Schema "Book":
+https://json-schema.org/understanding-json-schema/
 
 
 
