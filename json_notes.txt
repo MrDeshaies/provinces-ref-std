@@ -1,0 +1,34 @@
+Following on our earlier discussions, two files with json schema are available for your review. One is the standard (Canadian_prov_terr_du_Canada jsonBIL), the other is the crosswalk (crosswalk_prov_terr_correspendance jsonBIL).
+
+We are proposing that the schema includes both English and French definitions, given that the data is bilingual. As well, we recommend that we do not need separate json data dictionaries as we have developed as csv. The Getting Started Step-By-Step | JSON Schema (json-schema.org) and guidance from PSPC were used as reference (amongst others). 
+
+A few items for consideration:
+
+$id is looking for a URI for the schema and is currently indicated as Null. One option is to present the schema separately and link to the URI. The other it to be self-referential in that we would have the file at a URI that could then be included in the schema.  
+Language – some of the csv files were intended to be bilingual, so we have added the definitions in both languages (although the schema seems to be only available in English). Happy to discuss this approach, as separate files could be considered.
+We’d be happy for any suggestions or feedback.
+
+
+
+
+
+
+
+Comments
+Files should be coded as UTF-8, negating the need to encode accents. E.g. "nm_fr": "\u00cele-du-Prince-\u00c9douard",
+
+
+Required needs to be outside of properties, top level element.
+
+Data was [{}], an dictionary inside an array of size 1; the outer array is not needed. Structure can be simply {}
+
+Schema didn't match structure, which was an array (dict), but schema set as object. 
+
+*** Still need to determine if/how embed data and schema; may need separate files.
+
+
+schema validation tool:
+pip3 install jsonschema
+script validate_json.py in the root; change filenames as required.
+
+Online schema validation: https://www.jsonschemavalidator.net/
