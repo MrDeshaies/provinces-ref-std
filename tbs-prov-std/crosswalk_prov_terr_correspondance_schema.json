@@ -1,0 +1,47 @@
+﻿{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Crosswalk with existing standards - Reference Data for Canadian Provinces and Territories (DRAFT). Concordance avec les normes existantes – Données de référence pour les provinces et les territoires canadiens (ÉBAUCHE).",
+    "description": "Crosswalk showing the relationship between reference data code for Canadian provinces and territories and three other code structures for Canadian provinces and territories. Tableau de concordance montrant la relation entre le code de données de référence pour les provinces et les territoires canadiens et trois autres structures de code pour les provinces et les territoires canadiens.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "code": {
+                        "description": "This code represents the major political units in the country of Canada. Ce code représente les principales unités politiques du Canada.",
+                        "type": "string",
+                        "pattern": "^[A-Z]{2}$"
+                    },
+                    "code_statcan": {
+                        "description": "Statistics Canada uses standard codes and abbreviations to represent Canadian provinces and territories. The two-digit numeric code that uniquely identifies each province/territory is based on the Standard Geographical Classification (SGC) (2016). Statistique Canada utilise des codes et des abréviations normalisés pour représenter les provinces et les territoires canadiens. Le code à deux chiffres propre à chaque province et territoire est tiré de la Classification géographique type (CGT) (2016).",
+                        "type": "number"
+                    },
+                    "code_iso": {
+                        "description": "Code assigned by ISO in ISO 3166-2 to uniquely identify Canada's subdivisions. It is based on the two-letter code element from ISO 3166-1 (Country codes) followed by a separator and up to three alphanumeric characters. Code attribué par la norme ISO 3166-2 pour identifier de façon univoque les subdivisions du Canada. Il est basé sur l’élément de code à deux lettres de la norme ISO 3166-1 (Codes des noms de pays), suivi d’un séparateur et d’un maximum de trois caractères alphanumériques.",
+                        "type": "string",
+                        "pattern": "^CA-[A-Z]{2}$"
+                    },
+                    "cp_ab_pc": {
+                        "description": "Abbreviation for Canadian provinces and territories included in the Canada Post Addressing Guidelines. Abréviation pour les provinces et les territoires canadiens incluse dans les lignes directrices de Postes Canada sur l’adressage.",
+                        "type": "string",
+                        "pattern": "^[A-Z]{2}$"
+                    }
+                },
+                "required": [
+                    "code"
+                ]
+            }
+        },
+        "$schema": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "data",
+        "$schema"
+    ]
+}

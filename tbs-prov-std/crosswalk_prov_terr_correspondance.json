@@ -1,0 +1,83 @@
+﻿{
+    "$schema": "./crosswalk_prov_terr_correspondance_schema.json",
+    "data": [
+        {
+            "code": "NL",
+            "code_statcan": 10,
+            "code_iso": "CA-NL",
+            "cp_ab_pc": "NL"
+        },
+        {
+            "code": "PE",
+            "code_statcan": 11,
+            "code_iso": "CA-PE",
+            "cp_ab_pc": "PE"
+        },
+        {
+            "code": "NS",
+            "code_statcan": 12,
+            "code_iso": "CA-NS",
+            "cp_ab_pc": "NS"
+        },
+        {
+            "code": "NB",
+            "code_statcan": 13,
+            "code_iso": "CA-NB",
+            "cp_ab_pc": "NB"
+        },
+        {
+            "code": "QC",
+            "code_statcan": 24,
+            "code_iso": "CA-QC",
+            "cp_ab_pc": "QC"
+        },
+        {
+            "code": "ON",
+            "code_statcan": 35,
+            "code_iso": "CA-ON",
+            "cp_ab_pc": "ON"
+        },
+        {
+            "code": "MB",
+            "code_statcan": 46,
+            "code_iso": "CA-MB",
+            "cp_ab_pc": "MB"
+        },
+        {
+            "code": "SK",
+            "code_statcan": 47,
+            "code_iso": "CA-SK",
+            "cp_ab_pc": "SK"
+        },
+        {
+            "code": "AB",
+            "code_statcan": 48,
+            "code_iso": "CA-AB",
+            "cp_ab_pc": "AB"
+        },
+        {
+            "code": "BC",
+            "code_statcan": 59,
+            "code_iso": "CA-BC",
+            "cp_ab_pc": "BC"
+        },
+        {
+            "code": "YT",
+            "code_statcan": 60,
+            "code_iso": "CA-YT",
+            "cp_ab_pc": "YT"
+        },
+        {
+            "code": "NT",
+            "code_statcan": 61,
+            "code_iso": "CA-NT",
+            "cp_ab_pc": "NT"
+        },
+        {
+            "code": "NU",
+            "code_statcan": 62,
+            "code_iso": "CA-NU",
+            "cp_ab_pc": "NU"
+        }
+    ]
+}
