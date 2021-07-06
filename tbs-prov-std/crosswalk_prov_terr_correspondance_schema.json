@@ -1,4 +1,4 @@
-﻿{
+{
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Crosswalk with existing standards - Reference Data for Canadian Provinces and Territories (DRAFT). Concordance avec les normes existantes – Données de référence pour les provinces et les territoires canadiens (ÉBAUCHE).",
     "description": "Crosswalk showing the relationship between reference data code for Canadian provinces and territories and three other code structures for Canadian provinces and territories. Tableau de concordance montrant la relation entre le code de données de référence pour les provinces et les territoires canadiens et trois autres structures de code pour les provinces et les territoires canadiens.",
