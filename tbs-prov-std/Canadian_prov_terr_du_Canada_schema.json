@@ -1,15 +1,16 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "NULL",
     "title": "Reference data standard on Canadian provinces and territories (DRAFT). Norme sur les données de référence pour les provinces et les territoires du Canada (ÉBAUCHE).",
     "description": "This draft reference data provides a standard list of values for all Canadian provinces and territories. L’ébauche de ces données de référence présente une liste normalisée de valeurs pour l’ensemble des provinces et des territoires du Canada.",
     "definitions": {
         "province_territory": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
                 "code": {
                     "description": "This code represents the major political units in the country of Canada. Ce code représente les principales unités politiques du Canada.",
-                    "type": "string"
+                    "type": "string",
+                    "pattern": "^[A-Z]{2}$"
                 },
                 "nm_en": {
                     "description": "English name informed by the ISO Codes for the representation of names of countries and their subdivisions (3166-2), Principles and Procedures for Geographical Naming 2011 (Geographical Names Board of Canada, NRCan), the Statistics Canada Standard Geographical Classification (2016), and the Canada Post Canadian provinces and territories names and abbreviations. Nom en anglais fondé sur la norme ISO (3166-2) des codes des noms de pays et de leurs subdivisions, les Principes et directives pour la dénomination des lieux (2011) (Commission de toponymie du Canada, RNCan), la Classification géographique type de Statistique Canada (2016), et les noms et abréviations des provinces et des territoires canadiens de Postes Canada.",
@@ -38,7 +39,20 @@
         }
     },
 
-    "type" : "array",
-    "items": { "$ref": "#/definitions/province_territory" }
+    "type" : "object",
+    "additionalProperties" : false,
+    "properties": {
+        "data" : {
+            "type": "array",
+            "items": { "$ref": "#/definitions/province_territory" }
+        },
+        "$schema": {
+            "type" : "string"
+        }
+    },
+    "required": [
+        "data",
+        "$schema"
+    ]
 
 }
